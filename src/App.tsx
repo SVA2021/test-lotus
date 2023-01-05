@@ -1,9 +1,11 @@
-import React from 'react';
-import './App.css';
+import './App.scss';
+import {AuctionPage} from './AuctionPage';
+import {AuctionTemplate} from './db';
 
 function App() {
   return (
     <div className="App">
+      <AuctionPage auction={AuctionTemplate} />
     </div>
   );
 }

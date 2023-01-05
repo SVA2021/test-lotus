@@ -1,0 +1,99 @@
+.auction {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.title {
+  padding-bottom: 1em;
+  font-weight: 500;
+  color: red;
+  border-bottom: 2px solid gray;
+}
+
+.name {
+  margin-left: 1em;
+}
+
+.table {
+
+  // margin: 0 auto;
+  border-collapse: collapse;
+  padding: 1em;
+  text-align: center;
+
+  caption {
+    text-align: left;
+  }
+
+  .comment {
+    padding: 0.15em;
+    background-color: lightgrey;
+    color: red;
+    font-weight: 600;
+  }
+
+  th {
+    padding: 1em;
+    color: blue;
+    text-transform: uppercase;
+  }
+
+  td {
+    padding: 0.5em;
+  }
+
+  tbody {
+    border-top: 2px solid gray;
+
+    tr {
+      &:nth-child(odd) {
+        background-color: darkgrey;
+      }
+    }
+
+    td {
+      &:first-child {
+        max-width: 350px;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.max {
+  font-weight: 600;
+  color: blue;
+}
+
+
+.min {
+  font-weight: 600;
+  color: green;
+}
+
+.step {
+  font-weight: 600;
+  color: red;
+}
+
+.online {
+  margin-left: 0.25em;
+  color: green;
+  background-color: lightgreen;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.reload {
+  padding: 0.5em;
+  background-color: lightblue;
+  font-weight: 700;
+  color: green;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
